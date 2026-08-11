@@ -153,6 +153,7 @@ main {
   border: 2px solid var(--line);
   background: var(--ink-raised);
   flex-shrink: 0;
+  margin-top: 40px;
 }
 
 .hero-role {
