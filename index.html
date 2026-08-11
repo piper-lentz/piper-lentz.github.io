@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piper Lentz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Side index (desktop) / top index (mobile) -->
+<nav class="catalog-index" aria-label="Section index">
+  <div class="index-drawer">
+    <span class="index-label">INDEX</span>
+    <ol>
+      <li><a href="#about" data-sec="about"><span class="tab-no">01</span><span class="tab-name">About</span></a></li>
+      <li><a href="#experience" data-sec="experience"><span class="tab-no">02</span><span class="tab-name">Experience</span></a></li>
+      <li><a href="#projects" data-sec="projects"><span class="tab-no">03</span><span class="tab-name">Projects</span></a></li>
+      <li><a href="#contact" data-sec="contact"><span class="tab-no">04</span><span class="tab-name">Contact</span></a></li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+
+  <!-- Hero -->
+  <header class="hero">
+    <p class="card-code">PORTFOLIO</p>
+    <div class="hero-top">
+      <h1>Piper Lentz</h1>
+      <img class="headshot" src="headshot.jpg" alt="Photo of Piper Lentz">
+    </div>
+    <p class="hero-role">Master of Data Science student at Northeastern University</p>
+    <p class="hero-pitch">I am interested in using data to learn about the world on a deeper level.</p>
+    <a class="hero-cta" href="#experience">See the record ↓</a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="section-head">
+      <span class="tab-no">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Hello all! I'm currently a Master's student at Northeastern University studying data science. I earned my Bachelor's degree in
+        Physics and Astronomy at Amherst College, where I also served as captain of the cross country and track teams.
+      </p>
+      <p>
+        During my undergraduate degree, I was immersed in astronomy research where I used data to analyze planets and stars
+        billions of miles away. My favorite part about astronomy was working with the data, and now I am looking to find a
+        role where I can work with data in a manner that will enrich human lives here on this planet.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="section-head">
+      <span class="tab-no">02</span>
+      <h2>Experience</h2>
+    </div>
+    <div class="section-body">
+      <ol class="ledger">
+        <li class="ledger-entry">
+          <div class="ledger-year">2023–<span class="present">Present</span></div>
+          <div class="ledger-content">
+            <h3>Senior Product Designer — Northwind Freight</h3>
+            <p>Redesigned the dispatcher console used by 400+ operators daily;
+               cut average task-completion time by 31%.</p>
+          </div>
+        </li>
+        <li class="ledger-entry">
+          <div class="ledger-year">2021–2023</div>
+          <div class="ledger-content">
+            <h3>Product Designer — Alder Analytics</h3>
+            <p>Owned the design system from zero to company-wide adoption across
+               three product teams.</p>
+          </div>
+        </li>
+        <li class="ledger-entry">
+          <div class="ledger-year">2019–2021</div>
+          <div class="ledger-content">
+            <h3>UX Designer — Fieldstone Studio</h3>
+            <p>Client work spanning healthcare scheduling tools and a nonprofit
+               donor platform.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="tab-no">03</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="section-body">
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-tag">Case study</p>
+          <h3>Dispatcher Console Redesign</h3>
+          <p>How we rebuilt a 15-year-old logistics tool around operator
+             attention, not feature count.</p>
+          <a href="#">Read the case study →</a>
+        </article>
+        <article class="project-card">
+          <p class="project-tag">Side project</p>
+          <h3>Fieldnotes</h3>
+          <p>A minimal journaling app for researchers doing observational
+             fieldwork. Built solo, front to back.</p>
+          <a href="#">View project →</a>
+        </article>
+        <article class="project-card">
+          <p class="project-tag">Open source</p>
+          <h3>Ledger UI Kit</h3>
+          <p>A small component library for data-dense interfaces, built on
+             accessible primitives.</p>
+          <a href="#">View on GitHub →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-contact">
+    <div class="section-head">
+      <span class="tab-no">04</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="section-body">
+      <p class="contact-line">Best way to reach me is email. I usually reply within a day or two.</p>
+      <div class="contact-links">
+        <a href="mailto:hello@jordanellis.example">hello@jordanellis.example</a>
+        <a href="https://github.com/">GitHub ↗</a>
+        <a href="https://linkedin.com/">LinkedIn ↗</a>
+        <a href="/resume.pdf">Résumé (PDF) ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Jordan Ellis — last catalogued 2026.</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
