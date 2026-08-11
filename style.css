@@ -133,21 +133,21 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2.5rem;
-  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .hero h1 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2.75rem, 6vw, 4.5rem);
+  font-size: clamp(2.25rem, 5vw, 4.5rem);
   margin: 0 0 0.5rem;
   color: var(--bone);
+  min-width: 0;
 }
 
 .headshot {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--line);
@@ -370,6 +370,6 @@ main {
   }
   .hero { min-height: 70vh; }
   .hero-top { flex-direction: column-reverse; align-items: flex-start; gap: 1.25rem; }
-  .headshot { width: 96px; height: 96px; }
+  .headshot { width: 88px; height: 88px; }
   .ledger-entry { grid-template-columns: 1fr; gap: 0.4rem; }
 }
