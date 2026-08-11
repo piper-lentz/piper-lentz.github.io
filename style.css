@@ -67,7 +67,7 @@ button:focus-visible {
 .index-label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.2em;
   color: var(--bone-dim);
   margin-bottom: 1.5rem;
