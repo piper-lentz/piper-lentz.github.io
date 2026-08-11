@@ -14,7 +14,7 @@
   --font-body: "IBM Plex Sans", -apple-system, sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
 
-  --index-width: 200px;
+  --index-width: 300px;
 }
 
 * { box-sizing: border-box; }
@@ -88,7 +88,7 @@ button:focus-visible {
   padding: 0.55rem 0;
   color: var(--bone-dim);
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 1.5rem;
   border-left: 2px solid transparent;
   padding-left: 0.9rem;
   margin-left: -0.9rem;
