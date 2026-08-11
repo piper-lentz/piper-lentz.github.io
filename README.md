@@ -1,2 +1,2 @@
 # piper-lentz.github.io
-Personal website
+Hello! This is my personal website, where you can explore my experience and projects.
